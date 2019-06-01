@@ -1,0 +1,13 @@
+#Recursive_basic_sample
+
+def main():
+    message(5)
+
+def message(n):
+    if  n>0:
+        print ('This is a recursive function')
+        message(n-1)
+#call the main function
+main()        
+        
+        
